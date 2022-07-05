@@ -1,0 +1,301 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    }
+   
+header{
+  background-color: rgb(88, 88, 235);
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content:space-between;
+  padding: 0px 20px;
+ line-height: 25px;
+
+}
+#k{
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 4px 2px 3px bisque;
+  font-family: sans-serif;
+}
+
+ul li{
+  display: inline-block;
+margin-left: 20px;
+
+}
+ul li a{
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+ul li a:hover{
+  background-color: burlywood;
+  border-radius: 15px;
+}
+.main{
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+h1{
+color: blue;
+font-size: 20px;
+}
+.mo {
+  font-size: 8px;
+ text-align: justify;
+ color: rgb(182, 178, 178);
+}
+
+.sub button{
+  color:blue;
+  margin-top: 15px;
+  border-radius: 15px;
+  border: 1px solid silver;
+  background-color: white;
+  
+}
+#ko h1{
+  text-align: center;
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+#ko p{
+  color: rgb(161, 154, 154);
+  font-size: 10px;
+  text-align: center;
+}
+.img1 h3{
+  margin-bottom: 10px;
+}
+.w{
+  text-align: center;
+  text-align: justify;
+}
+.moham{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.img1 img{
+  width: 100%;
+  height: 100px;
+  transition: 0.8s;
+}
+.img1 img:hover{
+  transform: scale(1.2);
+}
+.img1{
+  padding:0px 22px;
+}
+.img1 h3{
+  font-size: 10px;
+}
+.img2 img{
+  width: 100%;
+  height: 120px;
+  transition: 0.8s;
+}
+.img2 img:hover{
+  transform: scale(1.2);
+}
+.img2{
+  padding: 0px 22px;
+}
+.jop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+h4{
+  font-size: 10px;
+}
+.fa-database{
+  color: blue;
+}
+.fa-spinner{
+  color: blue;
+}
+.fa-envelope-open-text{
+  color: blue;
+}
+.fa-globe{
+  color: blue;
+}
+.fa-code{
+  color: blue;
+}
+.fa-paintbrush{
+  color: blue;
+}
+.mohammedo img{
+  width: 100%;
+  height:180px;
+}
+.mohammedo {
+  width: 100%;
+}
+.ee h1{
+  text-align: center;
+  color: black;
+  margin-top: 15px;
+}
+.pay{
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.ezz img{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-bottom: 10px;
+
+}
+.ezz h5{
+  text-align: center;
+  font-size: 6px;
+  margin-left: 23px;
+  color: rgba(116, 108, 108, 0.784);
+}
+.conttt{
+  margin-top: 30px;
+  margin-right: 15px;
+}
+.conttt h1{
+  color: black;
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+.conttt p{
+  color: silver;
+  font-size: 12px;
+}
+.conttt h2{
+  margin-bottom: 8px;
+  margin-top: 25px;
+}
+.conttt .mt{
+  color: rgb(205, 202, 202);
+  font-size: 12px;
+}
+.conttt span{
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+.pppp{
+  display: flex;
+  padding: 70px;
+  padding-top: 50px;
+}
+.ooo{
+  margin-top: 30px;
+}
+.ooo button{
+  margin-top: 10px;
+  width: 50%;
+  height: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid silver;
+}
+.pop{
+display: flex;
+margin-bottom: 8px;
+}
+.pop input{
+  font-size: 9px;
+}
+.pop input:focus{
+  border: 1px solid red;
+  outline: 0;
+}
+.opo{
+  width: 100%;
+  height:60px;
+  background-color: blue;
+  text-align: center;
+}
+.opo h2{
+  font-size: 10px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 8px;
+}
+#iu{
+  color: white;
+  font-size: 12px;
+}
+.fa-facebook , .fa-instagram, .fa-twitter,.fa-telegram, .fa-line{
+  margin-left: 5px;
+}
+.pooo{
+  float: right;
+  display: none;
+}
+
+@media(max-width:767px){
+  .pooo{
+    display: block;
+  }
+  nav{
+ position: absolute;
+ top: 25px;
+ display: none;
+  }
+  ul li{
+    display: block;
+    text-align: center;
+  }
+  ul li a {
+   color: black;
+   margin-left: 40px;
+  }
+.main{
+position: absolute;
+top: 70px;
+}
+  .moham{
+    display: block;
+  }
+  .jop{
+    display: block;
+  }
+  .pay{
+    display: block;
+    text-align: center;
+
+  }
+  .pppp{
+    display: block;
+    padding: 5px;
+  }
+.ezz h5{
+  margin-left: 33px;
+  margin-bottom: 5px;
+}
+.img2 h4{
+  margin-bottom: 15px;
+}
+#k{
+position: absolute;
+top: 0;
+left: 85px;
+}
+.show{
+  display: block;
+}
+
+}
